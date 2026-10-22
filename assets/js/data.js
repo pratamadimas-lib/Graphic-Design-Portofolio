@@ -26,6 +26,7 @@ window.PORTFOLIO_DATA = {
   },
   profile: {
     name: "Dimas Pratama",
+    logo: "assets/images/logo.png",
     role: "Graphic Designer",
     location: "Pekanbaru, Indonesia",
     description: "Desainer grafis yang tertarik pada komunikasi visual, identitas, dan karya digital yang memiliki tujuan.",

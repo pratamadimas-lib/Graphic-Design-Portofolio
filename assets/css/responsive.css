@@ -291,6 +291,15 @@
         --radius-xl: 28px
     }
 
+    .wordmark-logo {
+        height: 28px;
+    }
+
+    .wordmark {
+        gap: 8px;
+        font-size: .88rem;
+    }
+
     .hero {
         padding-top: 130px;
         padding-bottom: 75px

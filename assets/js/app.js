@@ -4,6 +4,11 @@
     document.querySelectorAll("[data-profile]").forEach(el => { const key = el.dataset.profile; if (profile[key]) el.textContent = profile[key]; });
     document.querySelectorAll("[data-hero]").forEach(el => { const key = el.dataset.hero; if (hero[key]) el.textContent = hero[key]; });
     document.querySelectorAll("[data-profile='name']").forEach(el => el.textContent = profile.name || "Portfolio");
+    if (profile.logo) {
+      document.querySelectorAll(".wordmark-logo").forEach(img => {
+        img.src = profile.logo;
+      });
+    }
     document.title = data.siteSettings?.title || `${profile.name || "Portfolio"} — ${profile.role || "Designer"}`;
     const description = document.querySelector('meta[name="description"]'); if (description && data.siteSettings?.description) description.content = data.siteSettings.description;
     const theme = document.querySelector('meta[name="theme-color"]'); if (theme && data.siteSettings?.themeColor) theme.content = data.siteSettings.themeColor;
