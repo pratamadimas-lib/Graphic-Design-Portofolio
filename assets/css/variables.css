@@ -1,0 +1,30 @@
+:root {
+  --color-deep-navy: #0b1220;
+  --color-midnight: #101a2c;
+  --color-navy-surface: #18263b;
+  --color-black: #080a0e;
+  --color-white: #fff;
+  --color-off-white: #f5f7fa;
+  --color-muted: #a7b1c2;
+  --color-lime: #d6ff67;
+  --color-lime-dark: #b6e647;
+  --color-line: rgba(255,255,255,.12);
+  --glass-border: rgba(255,255,255,.16);
+  --glass-dark: rgba(15,24,40,.68);
+  --glass-light: rgba(255,255,255,.62);
+  --soft-blue: rgba(150,190,255,.18);
+  --radius-small: 12px;
+  --radius-medium: 20px;
+  --radius-large: 32px;
+  --radius-xl: 42px;
+  --radius-pill: 999px;
+  --content-width: 1440px;
+  --page-padding: clamp(20px, 5vw, 80px);
+  --ease-smooth: cubic-bezier(.22,1,.36,1);
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+  --duration-reveal: 650ms;
+  --shadow-soft: 0 24px 80px rgba(0,0,0,.24);
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Manrope", "DM Sans", sans-serif;
+}

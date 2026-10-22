@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Portofolio desain grafis dan karya visual.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio — Graphic Designer">
+  <meta property="og:description" content="Selected visual work, experience, and creative practice.">
+  <meta property="og:image" content="assets/images/hero/hero-art.svg">
+  <title>Portfolio — Graphic Designer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/navigation.js"></script>
+  <script defer src="assets/js/portfolio.js"></script>
+  <script defer src="assets/js/experience.js"></script>
+  <script defer src="assets/js/certificates.js"></script>
+  <script defer src="assets/js/contact.js"></script>
+  <script defer src="assets/js/animations.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+  <div class="ambient-glows" aria-hidden="true">
+    <div class="ambient ambient--one"></div>
+    <div class="ambient ambient--two"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-glass" aria-label="Navigasi utama">
+      <a class="wordmark" href="#home" aria-label="Kembali ke beranda"><span class="wordmark-mark">d.</span><span data-profile="name">Dimas Pratama</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Buka menu"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link is-active">Home</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span><span data-hero="eyebrow">DESIGNER & VISUAL CREATIVE</span></p>
+        <h1 id="hero-title"><span data-hero="titleLine1">Ideas made</span><br><span class="title-accent" data-hero="titleLine2">visually meaningful.</span></h1>
+        <p class="hero-description" data-hero="description">Saya merancang visual yang jernih, berkarakter, dan memiliki tujuan — dari identitas brand hingga komunikasi digital.</p>
+        <div class="hero-actions">
+          <a class="button button--light" href="#portfolio"><span data-hero="primaryButton">Jelajahi karya</span><span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact"><span data-hero="secondaryButton">Mari berkolaborasi</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <!-- <div class="hero-meta">
+          <div><span class="meta-label">BERBASIS DI</span><strong data-profile="location">Indonesia</strong></div>
+          <div><span class="meta-label">FOKUS KREATIF</span><strong data-profile="specialty">Branding · Digital · Editorial</strong></div>
+        </div> -->
+      </div>
+      <div class="hero-visual reveal reveal--delay-2">
+        <div class="visual-orbit orbit--one"></div><div class="visual-orbit orbit--two"></div>
+        <div class="hero-art-card">
+          <img src="assets/images/hero/hiro.png" alt="Komposisi abstrak editorial sebagai visual pembuka" fetchpriority="high">
+          <div class="art-glass-tag"><span class="tag-icon">✳</span><span><small>CREATIVE PRACTICE</small><strong>Thoughtful by design.</strong></span></div>
+          <!-- <span class="art-index">SELECTED VISUALS / 2026</span> -->
+        </div>
+        <div class="floating-note note--top"><span class="note-symbol">✦</span><span>Curiosity<br>into clarity</span></div>
+        <div class="floating-note note--bottom"><span class="note-number">01</span><span>Make it<br>matter.</span></div>
+      </div>
+      <a class="scroll-cue" href="#portfolio"><span class="scroll-line"></span><span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <!-- <section class="intro-strip section-wrap reveal" aria-label="Tentang pendekatan desain">
+      <p class="intro-kicker">A LITTLE ABOUT MY PRACTICE</p>
+      <p class="intro-statement">Visual bukan sekadar terlihat menarik. Ia harus <em>mengomunikasikan sesuatu</em>, membangun rasa, dan meninggalkan kesan.</p>
+      <span class="intro-spark" aria-hidden="true">✳</span>
+    </section> -->
+
+    <section class="section-wrap portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="portfolio-title">A collection of<br><span class="text-muted">visual stories.</span></h2></div>
+        <p class="section-description">Eksplorasi identitas, kampanye, dan karya visual yang dibangun dengan rasa ingin tahu dan perhatian pada detail.</p>
+      </div>
+      <div class="portfolio-toolbar reveal">
+        <div class="filter-list" id="category-filters" aria-label="Filter kategori"></div>
+        <div class="portfolio-tools">
+          <label class="search-field"><span class="sr-only">Cari proyek</span><span aria-hidden="true">⌕</span><input type="search" id="project-search" placeholder="Cari karya..." autocomplete="off"></label>
+          <label class="sr-only" for="sort-projects">Urutkan proyek</label>
+          <select id="sort-projects" class="sort-select"><option value="manual">Pilihan desainer</option><option value="newest">Terbaru</option><option value="oldest">Terlama</option><option value="az">Nama A–Z</option></select>
+        </div>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      <div class="portfolio-bottom"><p id="project-count" class="muted-small"></p><button id="load-more" class="button button--outline" type="button" hidden>Load more <span>↓</span></button></div>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">02 / THE JOURNEY</p><h2 id="experience-title">Work shaped<br><span class="text-muted">by experience.</span></h2></div>
+          <p class="section-description">Tempat, tim, dan tantangan yang membentuk cara saya berpikir dan bekerja sebagai desainer.</p>
+        </div>
+        <div id="experience-list" class="experience-list"></div>
+      </div>
+    </section>
+
+    <section class="section-wrap certificate-section" id="certificates" aria-labelledby="certificates-title">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">03 / CONTINUOUS LEARNING</p><h2 id="certificates-title">Learning in<br><span class="text-muted">every direction.</span></h2></div>
+        <p class="section-description">Pembelajaran dan pencapaian yang menjadi bagian dari perjalanan profesional.</p>
+      </div>
+      <div class="certificate-grid" id="certificate-grid"></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-wrap contact-inner reveal">
+        <div class="contact-orb" aria-hidden="true"><span>✳</span></div>
+        <p class="eyebrow">04 / HAVE A GOOD IDEA?</p>
+        <h2 id="contact-title">Let’s make<br><em>something matter.</em></h2>
+        <p class="contact-description" data-contact="description">Punya ide, proyek, atau cerita yang ingin diwujudkan? Mari mulai percakapan.</p>
+        <div class="contact-actions"><a class="button button--light" id="contact-email-cta" href="mailto:hello@example.com">Start a conversation <span>↗</span></a><a class="text-link" id="contact-whatsapp-cta" href="#" hidden>Chat on WhatsApp ↗</a></div>
+        <div class="contact-details" id="contact-details"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark" href="#home"><span class="wordmark-mark">d.</span><span data-profile="name">Dimas Pratama</span></a>
+    <p>Designed with intention. <span>© <span id="current-year"></span> <span data-profile="name">Dimas Pratama</span></span></p>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" type="button" aria-label="Tutup detail proyek">×</button>
+      <div class="dialog-content" id="dialog-content"></div>
+    </div>
+  </dialog>
+  <dialog class="project-dialog certificate-dialog" id="certificate-dialog" aria-labelledby="certificate-dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close certificate-dialog-close" type="button" aria-label="Tutup detail sertifikat">×</button>
+      <div class="dialog-content" id="certificate-dialog-content"></div>
+    </div>
+  </dialog>
+  <dialog class="image-dialog" id="image-dialog" aria-label="Pratinjau gambar">
+    <button class="dialog-close image-dialog-close" type="button" aria-label="Tutup pratinjau">×</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Gambar sebelumnya">←</button>
+    <img id="lightbox-image" src="" alt="">
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Gambar berikutnya">→</button>
+    <p id="lightbox-caption"></p>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    // Static fallback for environments where JavaScript is disabled.
+    document.documentElement.classList.add('js-enabled');
+  </script>
+</body>
+</html>

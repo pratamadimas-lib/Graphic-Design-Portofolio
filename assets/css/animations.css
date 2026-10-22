@@ -1,0 +1,63 @@
+.js-enabled .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity var(--duration-reveal) var(--ease-smooth), transform var(--duration-reveal) var(--ease-smooth)
+}
+
+.js-enabled .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.js-enabled .reveal--delay-2 {
+    transition-delay: 120ms
+}
+
+.project-card,
+.experience-item,
+.certificate-card {
+    animation: rise-in 600ms var(--ease-smooth) both
+}
+
+.project-card:nth-child(2),
+.certificate-card:nth-child(2) {
+    animation-delay: 70ms
+}
+
+.project-card:nth-child(3),
+.certificate-card:nth-child(3) {
+    animation-delay: 130ms
+}
+
+.project-card:nth-child(4) {
+    animation-delay: 190ms
+}
+
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important
+    }
+
+    .js-enabled .reveal {
+        opacity: 1;
+        transform: none
+    }
+}
